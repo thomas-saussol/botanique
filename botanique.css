@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+body{
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+#headernav{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+#headergif{
+    width: 80px;
+}
+.headerlink{
+    text-decoration: none;
+    color: rgb(32, 138, 32);
+}
+.headerlink:hover{
+    transition: all 1s ease-out;
+    color: rgb(65, 216, 60);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+#footersection{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footerarticle{
+    color: rgb(32, 138, 32);
+    display: flex;
+    flex-direction: column;
+}
+.footerlink{
+    text-decoration: none;
+    color: rgb(32, 138, 32);
+}
+.footerlink:hover{
+    transition: all 1s ease-out;
+    color: rgb(65, 216, 60);
+}
+
+/* -----Accueil----- */
+
+#bodyaccueil{
+    background-image: url(media/fondbambou.jpg);
+    background-size: cover;
+}
+#mainaccueil{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#titreaccueil{
+    font-size: 30px;
+}
+#soustitreaccueil{
+    font-size: 20px;
+}
+#sectionaccueil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.articleaccueil{
+    display: flex;
+}
+.imgaccueil{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+}
+
+/* -----Présentation----- */
+
+#bodypresentation{
+    background-image: url(media/arbrerougepresentation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#titrepresentation{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgba(110, 67, 11, 0.596);
+    width: 100%;
+    
+    
+    }
+    
+    #mainpresentation{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+    }
+    
+    #textepresentation{
+    font-size: 15px;
+    color: white;
+    font-style: bold;
+    border:10px double black;
+    border-radius: 40px;
+    background-color: rgba(148,90 , 15, 0.596);
+    margin-bottom: 40px;
+    width: 90%;
+    text-align: center;
+    
+    }
+    
+    #photopresentation{
+    height: auto;
+    width: 25%;
+    
+    }
+    
+    #divpresentationimg{
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    #eaupresentation{
+      height: auto;
+      width: 25%;
+    
+    }
+    
+    #sectionpresentationimage{
+    display: flex;
+    flex-basis: auto;
+    
+    
+    }
+    
+
+/* -----Fleurs----- */
+
+#bodyfleurs{
+    background-image: url(media/fleur.jpg);
+    background-size: cover;
+    color: darkblue;
+}
+#mainfleurs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.sectionfleurs{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.articlefleurs{
+    display: inline-block;
+    border-style: solid;
+    border-color: royalblue;
+    border-radius: 40px;
+}
+.imgfleurs{
+    width: 150px;
+    border-radius: 40px;
+}
+
+/* -----Plantes----- */
+
+#bodyplantes{
+    background-image: url(media/bamboo2.jpg);
+}
+#sectionplantes{
+    display: flex;
+    flex-direction: column;
+}
+.articleplantes{
+    display: flex;
+    align-items: center;
+    background-color: rgb(254, 255, 196);
+    opacity: 0.8;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.articleplantes:hover{
+    opacity: 1;
+}
+.imgplantes{
+    width: 300px;
+}
+
+/* -----Légumes----- */
+
+#bodylégumes{
+    background-image: url(media/terre.jpg);
+    background-size: cover;
+    color: white;
+}
+#mainlégumes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.sectionlégumes{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.articlelégumes{
+    display: flex;
+    align-items: center;
+}
+.imglégumes{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* -----Arbustes----- */
+
+#bodyarbustes{
+    background-image: url(media/fondvert.jpg);
+    background-size: cover;
+}
+#textearbuste{
+    display: flex;
+    width: 50%;
+    align-items: left
+    
+    }
+    
+    #texte2arbuste{
+      display:flex;
+      align-items: right;
+      width: 50%;
+    
+    
+    
+    }
+    
+    #photoarbuste{
+      height: auto;
+      width: 20%;
+    
+    }
+    
+    #arbusteallee{
+    
+      height: auto;
+      width: 20%;
+    }
+    
+    #arbustehaieimeuble{
+    display: flex;
+    height: auto;
+    width: 20%;
+    
+    }
+    
+    #imagesarbuste{
+      display: flex;
+      justify-content: space-between;
+      margin:10px;
+    
+    }
+    
+    #presentationimagearbuste{
+    justify-content: space-around;
+    margin-left: 30px;
+    
+    
+    }
